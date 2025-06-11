@@ -3,6 +3,9 @@
 1. [x] git init
 2. [x] stage gitignore
 3. [x] commit gitignore
+4. [x] push to remote
+5. [x] create dev branch
+6. [x] push dev branch to remote
 
 ## Workflow for Feature Branches
 1. Ensure dev branch is up to date
@@ -20,5 +23,8 @@ git add -A
 git remote add origin <remote-url>
 git push origin <branch-name>
 git branch 
-git checkout -b <new-branch-name>
+git checkout -b <new_branch-name>
+git pull origin <branch-name>
+git merge <branch-name>
+
 ```
